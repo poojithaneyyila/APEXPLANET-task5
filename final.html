@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ElectroNova | Online Electronics Shop</title>
+  <link rel="stylesheet" href="final.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo" id="logo">⚡ ElectroNova</div>
+    <div class="user-icons">
+      <span class="icon" id="profileIcon" title="Profile">👤</span>
+      <span class="icon" id="wishlistIcon" title="Wishlist">💖<span id="wishlistCount" style="color:#0ff; font-weight:900; margin-left:3px;">0</span></span>
+      <span class="icon" id="cartIcon" title="Cart">🛒<span id="cartCount" style="color:#0f0; font-weight:900; margin-left:3px;">0</span></span>
+    </div>
+  </header>
+
+  <main id="mainContent"></main>
+
+  <!-- Profile Modal -->
+  <div id="profileModal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close" id="closeProfile">&times;</span>
+      <div id="profileContent"></div>
+    </div>
+  </div>
+
+  <script src="final.js"></script>
+</body>
+</html>
